@@ -3,23 +3,15 @@
  }
 
 
- .rowClass {
-   margin-top: 20px;
-   height: 110vh;
-   margin: 20px;
-   border: 20px;
- }
 
  .colClass {
    height: 90vh;
-   width: 20vw;
    border-radius: 20px;
-   margin-top: 30vh;
    margin: 25px;
  }
 
  .colClass:hover {
-   margin-top: -10px;
+   margin-top: 15px;
    box-shadow: 0px 10px 20px black;
    background-color: darkblue;
    transition: 0.1s;
@@ -29,7 +21,7 @@
 
  .mainDiv {
 
-   margin-top: 20px;
+   margin-top: 50px;
 
  }
 

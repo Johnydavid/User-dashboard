@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 
-
 export default class PricingTable extends Component {
   render() {
     return (
-      <div className="container mainDiv">
-        <div className="row rowClass text-bg-primary align-items-center">
-          <div className="col colClass md-4 sm-4   text-bg-light  ">
+      <div className="container text-bg-primary mainDiv ">
+        <div className="row g-4 ">
+          <div className="col    colClass   text-bg-light  ">
             <div className="text-center">
               <h6 className="mt-3  text-secondary "> FREE</h6>
 
@@ -21,7 +20,7 @@ export default class PricingTable extends Component {
             <div>
               <ul type="none" className="mb-4">
                 <li className="mb-3">
-                  <i className="fas  fa-check"></i> Single User
+                  <i className="fas fa-check"></i> Single User
                 </li>
                 <li className="mb-3">
                   {" "}
@@ -56,13 +55,14 @@ export default class PricingTable extends Component {
                 </li>
               </ul>
             </div>
-            <div className="text-center">
+            <div className="d-flex justify-content-center">
               <button className="btn btn-primary rounded-pill fw-bold">
                 BUTTON
               </button>
             </div>
           </div>
-          <div className="col  md-4  sm-4  text-bg-light colClass">
+
+          <div className="col   text-bg-light colClass">
             <div className="text-center">
               <h6 className="mt-3  text-secondary ">PLUS</h6>
 
@@ -103,13 +103,13 @@ export default class PricingTable extends Component {
                 </li>
               </ul>
             </div>
-            <div className="text-center">
+            <div className="d-flex justify-content-center">
               <button className="btn btn-primary rounded-pill fw-bold">
                 BUTTON
               </button>
             </div>
           </div>
-          <div className="col  md-4  sm-4  text-bg-light colClass">
+          <div className="col   text-bg-light colClass">
             <div className="text-center">
               <h6 className="mt-3  text-secondary "> PRO</h6>
 
@@ -152,7 +152,7 @@ export default class PricingTable extends Component {
                 </li>
               </ul>
             </div>
-            <div className="text-center">
+            <div className=" d-flex justify-content-center">
               <button className="btn btn-primary rounded-pill fw-bold">
                 {" "}
                 BUTTON
