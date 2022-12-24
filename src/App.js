@@ -1,13 +1,14 @@
 import "./App.css";
 
-import PricingTable from "./PricingTable.jsx";
+import React from "react";
+import data from "./Data.json";
 
-function App() {
+import ShoppingCart from "./ShoppingCart";
+
+export default function App() {
   return (
     <div>
-      <PricingTable />
+      <ShoppingCart data={data} />
     </div>
   );
 }
-
-export default App;
