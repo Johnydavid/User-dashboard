@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/fontawesome-free-regular";
 
 export default function Footer() {
-  return (
+  return (    
     <>
       <div className="footerClass bg-dark text-light">
         {" "}
