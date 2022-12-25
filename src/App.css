@@ -1,16 +1,16 @@
-.descriptionClass{
+.descriptionClass {
 
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.fontClass{
+.fontClass {
   font-size: 60px;
 }
 
-.saleClass{
+.saleClass {
 
   margin-left: 2.5rem;
   margin-top: 0.5rem;
@@ -18,46 +18,46 @@
 
 }
 
-.navClass{
+.navClass {
   margin-left: 5rem;
 }
 
-.emptyClass{
+.emptyClass {
   margin-left: 25rem;
 }
 
 .card-img-top {
   width: 100%;
   height: 30vh;
- object-fit: cover;
+  object-fit: cover;
 }
 
-.btnClass{
-  height:2rem;
-  width:7rem;
+.btnClass {
+  height: 2rem;
+  width: 7rem;
   display: flex;
   justify-content: flex-start;
-  align-items:center;
+  align-items: center;
 
 
 }
 
-.footerClass{
-  height:10rem;
-  width:100%;
+.footerClass {
+  height: 10rem;
+  width: 100%;
   display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 2rem;
-
-}
-
-.cardClass{
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
 
 }
 
-.cardBodyClass{
-  height:5rem;
+.cardClass {
+  margin-top: 2rem;
+
+}
+
+.cardBodyClass {
+  height: 5rem;
 
 }
