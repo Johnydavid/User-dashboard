@@ -1,99 +1,53 @@
 [
   {
-    "cardName": "Fancy Product",
-    "ImageSrc": "https://i.pinimg.com/564x/69/e3/f1/69e3f113e3edfeccd7f49b5a971c241d.jpg",
-    "ImageAlt": "Cosmetics",
-    "btnName": "View Options",
-    "price": {
-      "oldPrice": " ",
-      "NewPrice": "$40.00 - $80.00"
-    },
-    "starNumbers": 0
-  },
-
-  {
-    "cardName": "Special Item",
-    "ImageSrc": "https://i.pinimg.com/564x/80/db/67/80db678126209ec2ac13ab9fcc39bcd3.jpg",
-    "ImageAlt": "Butterfly Ring",
-    "btnName": "Add to Cart",
-    "sale ": "Sale",
-    "price": {
-      "oldPrice": "$20.00",
-      "NewPrice": "$18.00"
-    },
-    "starNumbers": 5
+    
+      "cardTitle": "Free",
+      "cardPrice": "$0",
+      "period": "/month",
+      "user": "Single User",
+      "storage": "5GB Storage",
+      "projects": {
+        "public": "Unlimited Public Projects",
+        "private": "Unlimited Private Projects"
+      },
+      "access": "Community Access",
+      "support": "Dedicated Phone Support",
+      "subdomain": "Free Subdomain",
+      "reports": "Monthly Status Reports"
+    
   },
   {
-    "cardName": "Sale Item",
-    "ImageSrc": "https://i.pinimg.com/564x/c0/02/f8/c002f84a22e827d6f9bb413ed0a32b0d.jpg",
-    "ImageAlt": "Makeup kit",
-    "btnName": "Add to Cart",
-    "sale": "Sale",
-    "price": {
-      "oldPrice": "$50.00",
-      "NewPrice": "$25.00"
-    },
-    "starNumbers": 0
+    
+      "cardTitle": "Plus",
+      "cardPrice": "$9",
+      "period": "/month",
+      "user": "5 Users",
+      "storage": "50GB Storage",
+      "projects": {
+        "public": "Unlimited Public Projects",
+        "private": "Unlimited Private Projects"
+      },
+      "access": "Community Access",
+      "support": "Dedicated Phone Support",
+      "subdomain": "Free Subdomain",
+      "reports": "Monthly Status Reports"
+    
   },
   {
-    "cardName": "Popular Item",
-    "ImageSrc": "https://i.pinimg.com/564x/a1/8f/1b/a18f1bc37ba144a9b49540d75116f5d4.jpg",
-    "ImageAlt": "Sephora kit",
-    "btnName": "Add to Cart",
-    "price": {
-      "oldPrice": "",
-      "NewPrice": "$40.00"
-    },
-    "starNumbers": 5
-  },
-
-  {
-    "cardName": "Sale Item",
-    "ImageSrc": "https://i.pinimg.com/564x/9c/ed/9a/9ced9a8cf97a7e556d3fdf45012e090f.jpg",
-    "ImageAlt": "Kiko Lipgloss",
-    "btnName": "Add to Cart",
-    "sale": "Sale",
-    "price": {
-      "oldPrice": "$50.00",
-      "NewPrice": "$25.00"
-    },
-    "starNumbers": 0
-  },
-  {
-    "cardName": "Fancy Product",
-    "ImageSrc": "https://i.pinimg.com/564x/da/e5/a3/dae5a3fdaa02040aa26da35046f9e8a9.jpg",
-
-    "ImageAlt": "Fancy products",
-    "btnName": "View Options",
-    "price": {
-      "oldPrice": "",
-      "NewPrice": "$120.00 - $280.00"
-    },
-    "starNumbers": 0
-  },
-  {
-    "cardName": "Special Item",
-    "ImageSrc": "https://i.pinimg.com/564x/42/6a/c1/426ac1c5c1f9ab8d5bea4205f7f5e02f.jpg",
-
-    "ImageAlt": "Diamond Rose Gold Plated Locket",
-    "btnName": "Add to Cart",
-    "sale": "Sale",
-    "price": {
-      "oldPrice": "$20.00",
-      "NewPrice": "$18.00"
-    },
-    "starNumbers": 5
-  },
-  {
-    "cardName": "Popular Item",
-    "ImageSrc": "https://i.pinimg.com/564x/92/25/63/92256343ce48d51cf35f43294f8f414a.jpg",
-
-    "ImageAlt": "Makeup Brush set",
-    "btnName": "Add to Cart",
-    "price": {
-      "oldPrice": "",
-      "NewPrice": "$40.00"
-    },
-    "starNumbers": 5
-  }
+    
+      "cardTitle": "Pro",
+      "cardPrice": "$49",
+      "period": "/month",
+      "user": "Unlimited Users",
+      "storage": "150GB Storage",
+      "projects": {
+        "public": "Unlimited Public Projects",
+        "private": "Unlimited Private Projects"
+      },
+      "access": "Community Access",
+      "support": "Dedicated Phone Support",
+      "subdomain": "Unlimited Free Subdomains",
+      "reports": "Monthly Status Reports"
+    }
+  
 ]
