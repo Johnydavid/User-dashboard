@@ -28,6 +28,7 @@
     "react-alert": "^7.0.3",
     "react-alert-template-basic": "^1.0.2",
     "react-animation-on-scroll": "^5.1.0",
+    "react-bootstrap": "^2.7.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.0",
