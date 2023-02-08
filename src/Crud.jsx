@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function Crud() {
   return (
-    <div>
+    <div style={{ width: "100"}}>
       <h1 style={{ textAlign: "center", padding: `${25}px` }}>
         CRUD Operation
       </h1>
