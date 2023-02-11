@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import Crud from "./Crud";
 import Create from "./Create";
+import Home from "./Home";
 import Read from "./Read";
 import Update from "./Update";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +14,7 @@ export default function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Crud />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/crud" element={<Crud />} />
           <Route exact path="/create" element={<Create />} />
           <Route exact path="/read" element={<Read />} />

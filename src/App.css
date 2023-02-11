@@ -18,7 +18,8 @@
     justify-content: flex-start;
     align-items: normal;
     flex-direction: column;
-}
+    font-size: xx-large;
+} 
 
 
 
@@ -35,65 +36,20 @@
 }
 
 
-.create {
-    animation: flipX 2s ease-in infinite alternate-reverse;
-    color: blue;
+.homeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    background-color: black;
+    height: 75vh;
+    display: flex; 
+    font-size: 50px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
-@keyframes flipX {
-    0% {
-        transform: translateX(0vh);
-    }
-
-    100% {
-        transform: translateX(100vh);
-    }
-}
-
-
-.read {
-    animation: flipX 3s ease-in infinite alternate-reverse;
-    color: mediumaquamarine;
-}
-
-@keyframes flipX {
-    0% {
-        transform: translateX(15vh);
-    }
-
-    100% {
-        transform: translateX(100vh);
-    }
-}
-
-
-.update {
-    animation: flipX 3s ease-in infinite alternate-reverse;
-    color: yellowgreen;
-}
-
-@keyframes flipX {
-    0% {
-        transform: translateX(25vh);
-    }
-
-    100% {
-        transform: translateX(100vh);
-    }
-}
-
-
-.delete {
-    animation: flipX 2s ease-in infinite alternate-reverse;
-    color: red;
-}
-
-@keyframes flipX {
-    0% {
-        transform: translateX(40vh);
-    }
-
-    100% {
-        transform: translateX(100vh);
-    }
+.crudText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
