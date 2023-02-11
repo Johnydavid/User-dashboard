@@ -43,7 +43,7 @@ export default function Read() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Read Operation</h1>
-      <Table className="main">
+      <Table className="main table table-responsive container-sm container-md">
         <TableHeader>
           <TableRow>
             <Table.HeaderCell>First Name</Table.HeaderCell>
